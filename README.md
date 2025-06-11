@@ -1,4 +1,4 @@
-# 🚀 Fitness Overload Risk Predictor
+# Fitness Overload Risk Predictor
 
 Este projeto aplica técnicas de **Ciência de Dados** e **Inteligência Artificial** para prever o risco de **sobrecarga física ou exaustão** com base em dados diários de atividades monitoradas por dispositivos vestíveis (wearables), como smartwatches.
 
@@ -6,11 +6,11 @@ O objetivo é demonstrar, de forma prática, como uma **Rede Neural Artificial (
 
 ---
 
-## 📊 Sobre o Dataset
+## Sobre o Dataset
 
 O conjunto de dados utilizado é o:
 
-📌 **Fitness Track Daily Activity Dataset in DS**  
+**Fitness Track Daily Activity Dataset in DS**  
 🔗 Disponível no [Kaggle](https://www.kaggle.com/datasets/sheemazain/fitness-track-daily-activity-dataset-in-ds)
 
 Contém registros diários detalhados de:
@@ -23,7 +23,7 @@ Contém registros diários detalhados de:
 
 ---
 
-## 🔍 Etapas do Projeto
+## Etapas do Projeto
 
 1. **Carregamento e limpeza de dados**
 2. **Análise exploratória de dados (EDA)**
@@ -39,7 +39,7 @@ Contém registros diários detalhados de:
 
 ---
 
-## 🧠 Modelo Utilizado
+## Modelo Utilizado
 
 Foi implementado um **MLPClassifier** do `scikit-learn`, com:
 
@@ -51,7 +51,7 @@ Foi implementado um **MLPClassifier** do `scikit-learn`, com:
 
 ---
 
-## 📈 Resultados
+## Resultados
 
 O modelo foi avaliado com:
 
@@ -59,11 +59,11 @@ O modelo foi avaliado com:
 - **Matriz de confusão**
 - Importância do recall alto na classe de risco (minimizar falsos negativos)
 
-⚠️ Nota: A variável alvo `overload_risk` é **simulada** com base em regras empíricas. Em um cenário real, seria necessário integrar dados fisiológicos e validar os critérios com especialistas.
+⚠ Nota: A variável alvo `overload_risk` é **simulada** com base em regras empíricas. Em um cenário real, seria necessário integrar dados fisiológicos e validar os critérios com especialistas.
 
 ---
 
-## 🧪 Como Usar
+## Como Usar
 
 Você pode executar o script final e usar a função `predict_overload_risk()` para inserir manualmente seus dados de atividade física diária e obter uma predição instantânea:
 
